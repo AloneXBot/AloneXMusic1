@@ -12,21 +12,21 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","ALONE_WAS_BOT")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Itzz_AloneX")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "HimawariXBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "AloneMusicBot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Himawari X Music")
+BOT_NAME = getenv("BOT_NAME" , "Alone X Music")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "HimawariXHelper")
+ASSUSERNAME = getenv("ASSUSERNAME" , "AloneXAss")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1000))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002372770070"))
 
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 6079943111))
