@@ -21,7 +21,7 @@ BOT_NAME = getenv("BOT_NAME" , "Alone X Music")
 ASSUSERNAME = getenv("ASSUSERNAME" , "AloneXAss")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
 
